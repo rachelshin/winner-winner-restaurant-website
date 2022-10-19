@@ -397,7 +397,7 @@ h2{
   }
   h1{
     width: 100%;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     font-size: 2.5rem;
   }
   header{
@@ -532,7 +532,7 @@ h2{
   height: auto;
  }
  img{
-  border:2px solid brown;
+  /* border:2px solid brown; */
  }
  footer{
   position: fixed;

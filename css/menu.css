@@ -12,8 +12,12 @@
 /******************************************
 /* LAYOUT
 /*******************************************/
+html{
+  font-size: 62.5%;
+}
 main{
   height: 80%;
+  border: 2px solid red;
 }
 #smalls>ul, #drinks ul, #bigs ul{
   display: flex;
@@ -23,7 +27,7 @@ main{
 }
 li{
   width: 50%;
-
+  border: 1px solid blue;
 }
 h3, p{
   text-align: center;
@@ -31,6 +35,7 @@ h3, p{
 
 h3{
   font-size: 3rem;
+  border: 1px solid green;
 }
 
 #photos img{
@@ -40,11 +45,13 @@ h3{
   display: flex;
   justify-content: space-evenly;
   padding-bottom: 35px;
+  height: 30%;
+  width: 100%;
 }
 
 body{
   width: 100%;
-height: 100%;
+/* height: 100%; */
   font-family: 'Roboto Mono';
   border: 25px solid rgb(254	226	11	);
 }
@@ -57,7 +64,7 @@ height: 100%;
 
 header{
   height: 10%;
-  
+  border: 1px solid purple;
 }
 .right>img{
   width: 100%;
@@ -69,6 +76,7 @@ p{
   font-size: 2rem;
   line-height: 3.5rem;
   text-align: center;
+  border: 1px solid blue;
 }
 footer{
   
@@ -87,7 +95,7 @@ span{
   /* border: 2px solid blue; */
   height: 100%;
   width: auto;
-  
+  border: 1px solid orange;
 }
 a{
   /* border: 2px solid orange; */
@@ -103,25 +111,8 @@ i{
   height: 100%;
   /* margin-left: 90px; */
 }
-.left{
-  float: left;
-  /* border: 2px solid purple; */
-  width: 50%;
-  height: 100%;
-  padding: 5%;
-}
-.left img{
-  height: 100%;
-}
-.right{
-  float: right;
-  text-align: center;
-  width: 50%;
-  /* border: 2px solid red; */
-  height: 95%;
-}
 h1{
-  font-size: 4rem;
+  font-size: 3rem;
 font-weight: 500;
 text-align: center;
 padding-bottom: 3%;
@@ -149,10 +140,7 @@ h2{
   
 }
 
-h1{
-  width: 100%;
-  /* border: 2px solid red; */
-}
+
 header{
   width: 100%;
   /* border: 2px solid green; */
@@ -297,13 +285,18 @@ h2{
     width: 100%;
   }
   body, html{
-    height: 100%;
+    /* height: 100%; */
+  }
+  body{
+    border-width: 10px;
+    width: 100vw;
+    height: 100vh;
   }
   li{
     width: 100%;
   }
   h2{
-    font-size: 8rem;
+    font-size: 2rem;
     /* border:7px solid purple; */
     width: 80%;
     padding-top: 10px;
@@ -330,10 +323,10 @@ h2{
   }
   .menu__btn {
     position: fixed;
-    top: 100px;
-    left: 50px;
-    width: 90px;
-    height: 100px;
+    top: 30px;
+    left: 20px;
+    width: 20px;
+    height: 20px;
     cursor: pointer;
     z-index: 1;
     /* border: 2px solid red; */
@@ -344,18 +337,19 @@ h2{
     /* display: block; */
     position: absolute;
     width: 100%;
-    height: 8px;
+    /* thickness of lines */
+    height: 2px;
     background-color: black;
     transition-duration: .25s;
     /* border: 2px solid blue; */
   }
   .menu__btn > span::before {
     content: '';
-    top: -30px;
+    top: -7px;
   }
   .menu__btn > span::after {
     content: '';
-    top: 30px;
+    top: 7px;
   }
   .menu__box {
     display: block;
@@ -395,28 +389,15 @@ h2{
     height: 5%;
     width: 100%;
     /* border: 2px solid blue; */
-    font-size: 3rem;
+    font-size: 1rem;
     padding-left: 1rem;
     display: block;
     padding-top: 1%;
     
   }
-  .left{
-    height: 40%;
-    /* border: 2px solid purple; */
-    width: 100%;
-  }
-  .left img{
-    height: 100%;
-  }
-  .right{
-    height: 40%;
-    text-align: center;
-    width: 100%;
-    padding-top: 5%;
-  }
+  
   h1{
-    
+    font-size: 2rem;
   font-weight: 500;
   }
   ul{
@@ -425,11 +406,11 @@ h2{
     
   }
   nav ul li{
-    font-size: 4rem;
+    font-size: 2rem;
     /* border: 2px solid pink; */
   }
   h2{
-    font-size: 8rem;
+    font-size: 2rem;
     /* border:7px solid purple; */
     width: 78%;
     padding-top: 10px;
@@ -439,13 +420,13 @@ h2{
     width: 80%;
   }
   li{
-    font-size: 6rem;
+    font-size: 2rem;
   }
 
   h1{
-    width: 100%;
+    
     /* border: 2px solid red; */
-    font-size: 7rem;
+    font-size: 1rem;
   }
   header{
     width: 100%;
@@ -461,17 +442,13 @@ h2{
     /* border: 2px solid green; */
     height: 100%;
   }
-  .right>img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
+
   p{
     font-size: 4rem;
     line-height: 7rem;
   }
   #menuNav li{
-    font-size: 6rem;
+    font-size: 1rem;
   }
  
 

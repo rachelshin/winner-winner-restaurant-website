@@ -9,4 +9,4 @@ Multi-page website for a casual chicken joint in downtown Manhattan.
 
 **Tech used:** HTML, CSS, Javascript
 
-Modeled off of a template, recreated from scratch.
+Modeled off of a template, recreated and tweaked from scratch.
